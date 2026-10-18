@@ -4,10 +4,14 @@
   "displayName": "UniSave",
   "description": "Async save system for Unity with support for multiple storage backends.",
   "unity": "6000.6",
-  "dependencies": {
-    
-  },
   "author": {
-    "name": "voidHedge"
-  }
+    "name": "Enricki"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Save Demo",
+      "description": "A simple scene showing how to save and load player data.",
+      "path": "Samples~/Demo"
+    }
+  ]
 }
