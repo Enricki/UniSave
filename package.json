@@ -5,7 +5,7 @@
   "description": "Async save system for Unity with support for multiple storage backends.",
   "unity": "6000.6",
   "dependencies": {
-    "com.cysharp.unitask": "2.5.11"
+    
   },
   "author": {
     "name": "voidHedge"

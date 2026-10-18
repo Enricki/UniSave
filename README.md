@@ -12,11 +12,29 @@ Async save system for Unity. Designed to be flexible, allocation-friendly, and e
 
 ## Installation
 
-This package requires [UniTask](https://github.com/Cysharp/UniTask) to be installed in your project.
+**Important:** This package requires [UniTask](https://github.com/Cysharp/UniTask) to be installed first.
 
-1. Open Unity Package Manager (`Window -> Package Manager`).
-2. Click the `+` button in the top left corner and select **"Add package from git URL..."**.
-3. Paste your repository URL and click Add.
+### Install UniTask (choose one)
+
+**Option A: via Git URL**
+1. Open Package Manager (`Window -> Package Manager`).
+2. Click `+` -> **Add package from git URL...**.
+3. Paste: `https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask`
+
+**Option B: via OpenUPM (Scoped Registry)**
+1. Open `Edit -> Project Settings -> Package Manager`.
+2. Add a new Scoped Registry:
+   - Name: `package.openupm.com`
+   - URL: `https://package.openupm.com`
+   - Scope(s): `com.cysharp.unitask`
+3. Open `Window -> Package Manager`, select `My Registries`, and install `UniTask`.
+
+### Install UniSave
+
+1. Open Package Manager (`Window -> Package Manager`).
+2. Click `+` -> **Add package from git URL...**.
+3. Paste: `https://github.com/Enricki/UniSave.git`
+4. Click Add.
 
 ## Quick Start
 
