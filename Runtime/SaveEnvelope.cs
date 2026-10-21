@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace UniSave
+namespace voidHedge.SaveSystem
 {
     /// <summary>
     /// Root container for a save file.

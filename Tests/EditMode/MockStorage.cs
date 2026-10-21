@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace UniSave.Tests
+namespace voidHedge.SaveSystem.Tests
 {
     public class MockStorage : ISaveStorage
     {

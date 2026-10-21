@@ -1,9 +1,9 @@
 {
-  "name": "com.voidhedge.unisave",
+  "name": "com.voidhedge.savesystem",
   "version": "1.0.0",
-  "displayName": "UniSave",
+  "displayName": "voidHedge Save System",
   "description": "Async save system for Unity with support for multiple storage backends.",
-  "unity": "6000.6",
+  "unity": "6000.0",
   "author": {
     "name": "Enricki"
   },

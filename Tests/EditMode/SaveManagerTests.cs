@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using UnityEngine;
 
-namespace UniSave.Tests
+namespace voidHedge.SaveSystem.Tests
 {
     public class SaveManagerTests
     {

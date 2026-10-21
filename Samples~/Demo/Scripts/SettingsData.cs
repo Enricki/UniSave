@@ -1,5 +1,5 @@
 using UnityEngine;
-using UniSave;
+using voidHedge.SaveSystem;
 
 public class SettingsData : MonoBehaviour, ISavable
 {

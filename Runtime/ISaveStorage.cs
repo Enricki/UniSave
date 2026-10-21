@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace UniSave
+namespace voidHedge.SaveSystem
 {
     /// <summary>
     /// Abstraction over data storage (files, PlayerPrefs, cloud, etc.).

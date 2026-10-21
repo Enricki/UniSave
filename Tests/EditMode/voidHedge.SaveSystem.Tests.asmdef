@@ -1,5 +1,5 @@
 {
-    "name": "UniSave.Tests",
+    "name": "VoidHedge.SaveSystem.Tests",
     "rootNamespace": "",
     "references": [
         "GUID:c34263624b067b14e90012e060b6e195",

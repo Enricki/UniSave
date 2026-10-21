@@ -1,4 +1,4 @@
-namespace UniSave
+namespace voidHedge.SaveSystem
 {
     /// <summary>
     /// Interface for any system that needs to be saved and loaded.

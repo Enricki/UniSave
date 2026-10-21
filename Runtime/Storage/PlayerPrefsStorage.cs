@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace UniSave.Storage
+namespace voidHedge.SaveSystem.Storage
 {
     /// <summary>
     /// Storage implementation based on Unity's PlayerPrefs.

@@ -1,6 +1,6 @@
 using System;
 
-namespace UniSave
+namespace voidHedge.SaveSystem
 {
     /// <summary>
     /// One serialized chunk of data from a single ISavable.
