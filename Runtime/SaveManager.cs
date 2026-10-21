@@ -49,6 +49,11 @@ namespace voidHedge.SaveSystem
             _storage = storage ?? throw new ArgumentNullException(nameof(storage));
         }
 
+        public bool HasSave()
+        {
+            return _storage != null && _storage.HasData();
+        }
+
         private async void Start()
         {
             // Ждем один кадр, чтобы все остальные скрипты успели сделать Initialize()
